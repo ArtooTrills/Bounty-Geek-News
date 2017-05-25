@@ -1,5 +1,4 @@
 # Bounty-Geek-News
-A project based task for a fullstack JS Dev. Build an enhanced version of HackerNews and get to work at Artoo
 
 [Hacker News](https://news.ycombinator.com) is a social news website focusing on computer science and entrepreneurship. It is run by Paul Graham's investment fund and startup incubator, Y Combinator. In general, content that can be submitted is defined as "anything that gratifies one's intellectual curiosity"
 
