@@ -11,8 +11,8 @@ Build a simple search/filter feature for Hacker News. Use the [Official API](htt
 
 Example - Show the top 50 posts from the last month. You can define "top" as any link which has more than 250 points. On a webpage show your search results which has a link to the original article and some basic details about the post - points, date etc
 
-### Save Links
-Once you are done with this give an option to save the links which look interesting. Allow for tags and your comments to be saved alongwith the link. If you are adventurous then save your favourite links in the cloud in [Firebase](https://firebase.google.com/docs/database/)
+### Bookmark Links
+Once you are done, give an option to save interesting links. Allow for tags and your comments to be saved alongwith the link. If you are adventurous then save your favourite links in the cloud in [Firebase](https://firebase.google.com/docs/database/)
 
 ## What are we looking for
 - Code structure
