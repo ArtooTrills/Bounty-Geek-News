@@ -22,3 +22,9 @@ Once you are done, give an option to save interesting links. Allow for tags and 
 ## Resources
 - [NPM module for HackerNews API](https://www.npmjs.com/package/hackernews-api)
 - [Firebase](https://firebase.google.com/docs/database/)
+
+## Final Words
+
+When you are done, just create a pull request on this repo. We would like you to come in and present your code to the whole team.
+
+May the force be with you!
