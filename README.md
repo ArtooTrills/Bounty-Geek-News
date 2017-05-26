@@ -4,7 +4,7 @@
 
 Source: wikipedia
 
-It has everything from high quality tech articles, entrepreneurial stories, job postings and some cool indie developer project show-offs. It is similar to Reddit where you can upvote or downvote the contents of any link, comments and accordingly it will rise in popularity. Sadly it misses one key feature - "Search". If you miss a certain article some day then it is very rare that you will find it in first home page again
+It has everything from high quality tech articles, entrepreneurial stories, job postings and some cool indie developer project show-offs. It is similar to Reddit where you can upvote or downvote the contents of any link, comments and accordingly it will rise in popularity. Sadly it misses one key feature - "Search". If you miss a certain article some day then it is very rare that you will find it in the home page again.
 
 ### Search HN
 Build a simple search/filter feature for Hacker News. Use the [Official API](https://github.com/HackerNews/API) and allow to quickly filter by time or popularity
