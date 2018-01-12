@@ -1,0 +1,79 @@
+
+
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+       	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  </head>
+ 
+  <body class="container">
+     
+     
+     <nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Hacker News</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+           <li><a class = "active1" href="/top_page=:skip" >Top Stories</a></li>
+        <li><a href="/new_page=:skip">Latest news</a></li>
+       <li><a href="/best_page=:skip" >Trending news</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+     
+     
+     
+     
+     
+   
+     
+    <h1 class= "heading1" style="text-align:center"><%= title %></h1>
+
+    <!-- <div class="list-group"> -->
+    <div class="basic">
+      <% for(var i=0; i<news.length; i++) {%>
+        <!-- <a href="<%= news[i].url %>" class="list-group-item list-group-item-action flex-column align-items-start"> -->
+          <div class="d-flex w-100 justify-content-between">
+           <h4 class="mb-1">
+            <span class="newsItem"> <%= news[i].title %></span>
+           </h4>
+          </div>
+            <p class="mb-1">
+              <a class="btn btn-primary" style="float:right;" href=" <%= news[i].url %>" target="_blank">View More<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </p>
+            <p>
+              <span class="points"><%= news[i].score %></span> score by <%= news[i].by %> on <%= moment(news[i].time).format( 'MMM-DD-YYYY') %>
+            </p>
+            <hr>
+        <!-- </a> -->
+        <br>
+      <% } %>
+    </div>
+     <hr>
+    <nav aria-label="Page navigation example">
+       <span class = "navigation" >Navigation</span>
+      <ul class="pagination">
+        <% for(var i=1; i<30; i++) {%>
+          <li class="page-item"><a class="page-link" href="/top_page=<%=i%>"><%=i%></a></li>
+        <% } %>
+      </ul>
+  
+    </nav>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
