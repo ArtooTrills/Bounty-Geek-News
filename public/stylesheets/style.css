@@ -1,0 +1,58 @@
+body {
+ 
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.basic {
+  background-color: #d0d097;
+    padding: 19px;
+   border-radius: 20px;
+}
+
+.route{
+  padding-top: 100px;
+}
+
+.navigation
+{
+
+  background:#348F50;
+  margin-top: 20px;
+  border-radius:20px;
+  padding:10px;
+  font-size: 17px;
+  color: white;
+}
+
+.points
+{
+  font-size: 20px;
+  color: #603813;
+}
+
+.heading1
+{
+  font-family: 'Anton', sans-serif;
+  padding-bottom:20px;
+  font-size:40px;
+}
+
+.newsItem
+{
+  font-family: 'Anton', sans-serif;
+  font-size:18px;
+}
+
+.active1
+{
+  background:white;
+  font-weight:900;
+}
+
+.fa-newspaper-o
+{
+  padding-right:5px;
+}
